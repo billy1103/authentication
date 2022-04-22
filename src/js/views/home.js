@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 import { signIn } from "../utilities/singIn";
 
@@ -9,7 +8,7 @@ export const Home = () => {
 
 	return (
 
-		<div classNameName="d-flex justify-content-center">
+		<div className="d-flex justify-content-center">
 			<form>
 				<div className="mb-3">
 					<label for="exampleInputEmail1" className="form-label">Email address</label>
